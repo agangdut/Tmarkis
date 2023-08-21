@@ -14,6 +14,7 @@
 		BD7577CD2A932DB800869A89 /* TmarkisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7577CC2A932DB800869A89 /* TmarkisTests.swift */; };
 		BD7577D72A932DB800869A89 /* TmarkisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7577D62A932DB800869A89 /* TmarkisUITests.swift */; };
 		BD7577D92A932DB800869A89 /* TmarkisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7577D82A932DB800869A89 /* TmarkisUITestsLaunchTests.swift */; };
+		BDB2E3472A93462300E9771D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB2E3462A93462300E9771D /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BD7577D22A932DB800869A89 /* TmarkisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TmarkisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7577D62A932DB800869A89 /* TmarkisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmarkisUITests.swift; sourceTree = "<group>"; };
 		BD7577D82A932DB800869A89 /* TmarkisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmarkisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDB2E3462A93462300E9771D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		BD7577AF2A932DB600869A89 = {
 			isa = PBXGroup;
 			children = (
+				BDB2E3462A93462300E9771D /* Launch Screen.storyboard */,
 				BD7577BA2A932DB600869A89 /* Tmarkis */,
 				BD7577CB2A932DB800869A89 /* TmarkisTests */,
 				BD7577D52A932DB800869A89 /* TmarkisUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB2E3472A93462300E9771D /* Launch Screen.storyboard in Resources */,
 				BD7577C32A932DB800869A89 /* Preview Assets.xcassets in Resources */,
 				BD7577C02A932DB800869A89 /* Assets.xcassets in Resources */,
 			);

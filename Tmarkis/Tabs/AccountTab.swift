@@ -5,7 +5,6 @@
 //  Created by Agang Dut on 8/21/23.
 //
 
-import Foundation
 import SwiftUI
 import FirebaseFirestore
 import FirebaseAuth
@@ -222,7 +221,9 @@ func sessionlisten() {
 
 struct AccountTab_Previews: PreviewProvider {
     static var previews: some View {
-        SignedInTab()
+        AccountTab()
             .environmentObject(SessionStore())
+        
     }
 }
+

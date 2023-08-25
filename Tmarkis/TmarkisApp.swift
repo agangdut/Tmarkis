@@ -6,12 +6,32 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
-@main
-struct TmarkisApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+        
+        return true
+    }
+}
+    
+    @main
+    struct TmarkisApp: App {
+        @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+        init() {
+            UIView.appearance(whenContainedInInstancesOf: [UIAlertController.self]).tintColor = .systemRed
+            UIPageControl.appearance().currentPageIndicatorTintColor = .yellow
+            UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
+            
+        }
+        var body: some Scene {
+            WindowGroup {
+                NavigationView {
+                    ContentView()
+                        .environmentObject(SessionStore())
+            }
         }
     }
 }

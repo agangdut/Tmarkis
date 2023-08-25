@@ -16,9 +16,6 @@
 		BD7577D92A932DB800869A89 /* TmarkisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7577D82A932DB800869A89 /* TmarkisUITestsLaunchTests.swift */; };
 		BDB2D19E2A946F4800CFC7BF /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2D19D2A946F4800CFC7BF /* HomeTab.swift */; };
 		BDB2D1A02A946F5500CFC7BF /* AccountTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2D19F2A946F5500CFC7BF /* AccountTab.swift */; };
-		BDB2D1A72A94740600CFC7BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB2D1A62A94740600CFC7BF /* GoogleService-Info.plist */; };
-		BDB2D1A82A94740600CFC7BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB2D1A62A94740600CFC7BF /* GoogleService-Info.plist */; };
-		BDB2D1A92A94740600CFC7BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB2D1A62A94740600CFC7BF /* GoogleService-Info.plist */; };
 		BDB2D1AC2A94747300CFC7BF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BDB2D1AB2A94747300CFC7BF /* FirebaseAuth */; };
 		BDB2D1AE2A94747300CFC7BF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BDB2D1AD2A94747300CFC7BF /* FirebaseFirestore */; };
 		BDB2D1B02A94747300CFC7BF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BDB2D1AF2A94747300CFC7BF /* FirebaseStorage */; };
@@ -29,6 +26,16 @@
 		BDB2D1B82A9476BB00CFC7BF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2D1B62A9476BB00CFC7BF /* Utilities.swift */; };
 		BDB2D1B92A9476BB00CFC7BF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2D1B62A9476BB00CFC7BF /* Utilities.swift */; };
 		BDB2E3472A93462300E9771D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB2E3462A93462300E9771D /* Launch Screen.storyboard */; };
+		BDB61BAA2A96963E00D14934 /* ProductTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB61BA92A96963E00D14934 /* ProductTab.swift */; };
+		BDD171D02A9834E00021F161 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = BDD171CF2A9834E00021F161 /* Stripe */; };
+		BDD171D22A9834E00021F161 /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = BDD171D12A9834E00021F161 /* StripeApplePay */; };
+		BDD171D42A9834E00021F161 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = BDD171D32A9834E00021F161 /* StripePaymentSheet */; };
+		BDD171D62A9834E00021F161 /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = BDD171D52A9834E00021F161 /* StripePayments */; };
+		BDD171D82A9834E00021F161 /* StripePaymentsUI in Frameworks */ = {isa = PBXBuildFile; productRef = BDD171D72A9834E00021F161 /* StripePaymentsUI */; };
+		BDD171DA2A9835830021F161 /* Stripe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD171D92A9835830021F161 /* Stripe.swift */; };
+		BDD171DC2A983D7D0021F161 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDD171DB2A983D7D0021F161 /* GoogleService-Info.plist */; };
+		BDD171DD2A983D7D0021F161 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDD171DB2A983D7D0021F161 /* GoogleService-Info.plist */; };
+		BDD171DE2A983D7D0021F161 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDD171DB2A983D7D0021F161 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +69,12 @@
 		BDB2D19D2A946F4800CFC7BF /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
 		BDB2D19F2A946F5500CFC7BF /* AccountTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTab.swift; sourceTree = "<group>"; };
 		BDB2D1A12A9472EC00CFC7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		BDB2D1A62A94740600CFC7BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BDB2D1B22A94752F00CFC7BF /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		BDB2D1B62A9476BB00CFC7BF /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		BDB2E3462A93462300E9771D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BDB61BA92A96963E00D14934 /* ProductTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTab.swift; sourceTree = "<group>"; };
+		BDD171D92A9835830021F161 /* Stripe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stripe.swift; sourceTree = "<group>"; };
+		BDD171DB2A983D7D0021F161 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +82,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD171D22A9834E00021F161 /* StripeApplePay in Frameworks */,
 				BDB2D1AC2A94747300CFC7BF /* FirebaseAuth in Frameworks */,
+				BDD171D02A9834E00021F161 /* Stripe in Frameworks */,
 				BDB2D1AE2A94747300CFC7BF /* FirebaseFirestore in Frameworks */,
+				BDD171D42A9834E00021F161 /* StripePaymentSheet in Frameworks */,
+				BDD171D62A9834E00021F161 /* StripePayments in Frameworks */,
+				BDD171D82A9834E00021F161 /* StripePaymentsUI in Frameworks */,
 				BDB2D1B02A94747300CFC7BF /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,7 +113,7 @@
 		BD7577AF2A932DB600869A89 = {
 			isa = PBXGroup;
 			children = (
-				BDB2D1A62A94740600CFC7BF /* GoogleService-Info.plist */,
+				BDD171DB2A983D7D0021F161 /* GoogleService-Info.plist */,
 				BDB2E3462A93462300E9771D /* Launch Screen.storyboard */,
 				BD7577BA2A932DB600869A89 /* Tmarkis */,
 				BD7577CB2A932DB800869A89 /* TmarkisTests */,
@@ -162,6 +176,7 @@
 			children = (
 				BDB2D19D2A946F4800CFC7BF /* HomeTab.swift */,
 				BDB2D19F2A946F5500CFC7BF /* AccountTab.swift */,
+				BDB61BA92A96963E00D14934 /* ProductTab.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -171,6 +186,7 @@
 			children = (
 				BDB2D1B22A94752F00CFC7BF /* SessionStore.swift */,
 				BDB2D1B62A9476BB00CFC7BF /* Utilities.swift */,
+				BDD171D92A9835830021F161 /* Stripe.swift */,
 			);
 			path = Backend;
 			sourceTree = "<group>";
@@ -195,6 +211,11 @@
 				BDB2D1AB2A94747300CFC7BF /* FirebaseAuth */,
 				BDB2D1AD2A94747300CFC7BF /* FirebaseFirestore */,
 				BDB2D1AF2A94747300CFC7BF /* FirebaseStorage */,
+				BDD171CF2A9834E00021F161 /* Stripe */,
+				BDD171D12A9834E00021F161 /* StripeApplePay */,
+				BDD171D32A9834E00021F161 /* StripePaymentSheet */,
+				BDD171D52A9834E00021F161 /* StripePayments */,
+				BDD171D72A9834E00021F161 /* StripePaymentsUI */,
 			);
 			productName = Tmarkis;
 			productReference = BD7577B82A932DB600869A89 /* Tmarkis.app */;
@@ -270,6 +291,7 @@
 			mainGroup = BD7577AF2A932DB600869A89;
 			packageReferences = (
 				BDB2D1AA2A94747300CFC7BF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BDD171CE2A9834E00021F161 /* XCRemoteSwiftPackageReference "stripe-ios" */,
 			);
 			productRefGroup = BD7577B92A932DB600869A89 /* Products */;
 			projectDirPath = "";
@@ -288,7 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB2E3472A93462300E9771D /* Launch Screen.storyboard in Resources */,
-				BDB2D1A72A94740600CFC7BF /* GoogleService-Info.plist in Resources */,
+				BDD171DC2A983D7D0021F161 /* GoogleService-Info.plist in Resources */,
 				BD7577C32A932DB800869A89 /* Preview Assets.xcassets in Resources */,
 				BD7577C02A932DB800869A89 /* Assets.xcassets in Resources */,
 			);
@@ -298,7 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDB2D1A82A94740600CFC7BF /* GoogleService-Info.plist in Resources */,
+				BDD171DD2A983D7D0021F161 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDB2D1A92A94740600CFC7BF /* GoogleService-Info.plist in Resources */,
+				BDD171DE2A983D7D0021F161 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,10 +340,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB2D1B72A9476BB00CFC7BF /* Utilities.swift in Sources */,
+				BDB61BAA2A96963E00D14934 /* ProductTab.swift in Sources */,
 				BDB2D19E2A946F4800CFC7BF /* HomeTab.swift in Sources */,
 				BD7577BE2A932DB600869A89 /* ContentView.swift in Sources */,
 				BDB2D1B32A94752F00CFC7BF /* SessionStore.swift in Sources */,
 				BD7577BC2A932DB600869A89 /* TmarkisApp.swift in Sources */,
+				BDD171DA2A9835830021F161 /* Stripe.swift in Sources */,
 				BDB2D1A02A946F5500CFC7BF /* AccountTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,8 +515,8 @@
 				INFOPLIST_FILE = Tmarkis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,9 +524,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.agangdut.Tmarkis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -520,8 +547,8 @@
 				INFOPLIST_FILE = Tmarkis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,9 +556,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.agangdut.Tmarkis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -661,6 +691,14 @@
 				kind = branch;
 			};
 		};
+		BDD171CE2A9834E00021F161 /* XCRemoteSwiftPackageReference "stripe-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 23.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -678,6 +716,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BDB2D1AA2A94747300CFC7BF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		BDD171CF2A9834E00021F161 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDD171CE2A9834E00021F161 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = Stripe;
+		};
+		BDD171D12A9834E00021F161 /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDD171CE2A9834E00021F161 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeApplePay;
+		};
+		BDD171D32A9834E00021F161 /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDD171CE2A9834E00021F161 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePaymentSheet;
+		};
+		BDD171D52A9834E00021F161 /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDD171CE2A9834E00021F161 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePayments;
+		};
+		BDD171D72A9834E00021F161 /* StripePaymentsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDD171CE2A9834E00021F161 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePaymentsUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
